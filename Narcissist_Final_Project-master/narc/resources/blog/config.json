@@ -1,0 +1,37 @@
+{
+	"type": "Collection",
+	"properties": {
+		"username": {
+			"name": "username",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "username",
+			"order": 0
+		},
+		"Blogpost": {
+			"name": "Blogpost",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "Blogpost",
+			"order": 1
+		},
+		"Timestamp": {
+			"name": "Timestamp",
+			"type": "date",
+			"typeLabel": "date",
+			"required": true,
+			"id": "Timestamp",
+			"order": 2
+		},
+		"blogimg": {
+			"name": "blogimg",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "blogimg",
+			"order": 3
+		}
+	}
+}

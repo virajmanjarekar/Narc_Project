@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Narc Site PlaceHolder</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="stylesheets/styles.css">
+
+</head>
+
+
+<body class="container-fluid b">
+  <header>
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <img src="/img/MeLogo.png">
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav" style="font-family:Cambria;font-weight:bold;font-size:20px">
+            <li><a href="Profile.html">My Posts</a></li>
+            <li><a href="MyTraits.html">My Traits</a></li>
+            <li><a href="ProfileEdit.html">Edit Profile</a></li>
+            <li><a href="ProfilePublic.html">Public Profile</a></li>
+          </ul>
+          <button id="logout-user" style="float:right;" type="submit" class="btn btn-primary">Logout</button>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div class ="profile"><h1 style="font-family:Cambria;font-weight:bold;font-size:40px"><b>My Traits<b></h1>
+    <div class="container-fluid">
+      <div class="row">
+        <div id="profile-image-column" class="col-xs-4 ">
+          <br><br><br><br>
+          <img id="img_profile" height="200" width="200">
+        </div>
+        <div class="col-xs-8 ">
+          <div class="tab-content">
+            <div id="user-about-me">
+              <h4 id="user-traits" style="font-family:Cambria;font-weight:bold;font-size:16px;color:white"></h4>
+              <form special-attributes="form" name="formAttr">
+                <fieldset>
+                  <legend style="font-family:Cambria;font-weight:bold;font-size:30px;color:white"><br>5 Things That Make You Special<br>
+                    <small>Note : You will not be able to add more than 5</small>
+                  </legend>
+
+                  <div name="Attr" style="font-family:Cambria;font-weight:bold;font-size:14px;color:white">
+                    <div class="checkbox">
+                      <label>
+                    <input type="checkbox" name="attributes" value="I'm smarter than everyone else">
+                    I'm smarter than everyone else
+                    </label>
+                    </div>
+
+                    <div class="checkbox">
+                      <label>
+                  <input type="checkbox" name="attributes" value="I'm better looking than everyone else">
+                    I'm better looking than everyone else
+                </label>
+                    </div>
+
+                    <div class="checkbox">
+                      <label>
+                    <input type="checkbox" name="attributes" value="I've got the best words">
+                    I've got the best words
+                    </label>
+                    </div>
+
+                    <div class="checkbox">
+                      <label>
+                  <input type="checkbox" name="attributes" value="I'm exceptionally talented">
+                  I'm exceptionally talented
+                  </label>
+                    </div>
+
+                    <div class="checkbox">
+                      <label>
+                  <input type="checkbox" name="attributes" value="I hold great influence over others">
+                  I hold great influence over others
+                  </label>
+                    </div>
+                    <div class="checkbox">
+                      <label>
+                  <input type="checkbox" name="attributes" value="I'm the most humble">
+                  I'm the most humble
+                  </label>
+                    </div>
+                    <div class="checkbox">
+                      <label>
+                  <input type="checkbox" name="attributes" value="I'm the life of every party">
+                  I'm the life of every party
+                  </label>
+                    </div>
+                    <div class="checkbox">
+                      <label>
+                  <input type="checkbox" name="attributes" value="I always get what I want">
+                  I always get what I want
+                  </label>
+                    </div>
+                    <div class="checkbox">
+                      <label>
+                  <input type="checkbox" name="attributes" value="I'm flawless">
+                  I'm flawless
+                  </label>
+                    </div>
+                    <div class="checkbox">
+                      <label>
+                  <input type="checkbox" name="attributes" value="I woke up like this">
+                  I woke up like this
+                  </label>
+                    </div>
+                    <div class="checkbox">
+                      <label>
+                  <input type="checkbox" name="attributes" value="I was born to be famous">
+                  I was born to be famous
+                  </label>
+                    </div>
+                    <div class="checkbox">
+                      <label>
+                  <input type="checkbox" name="attributes" value="Everyone tells me I'm special and I am!">
+                  Everyone tells me I'm special and I am!
+                  </label>
+                    </div>
+                    <div class="checkbox">
+                      <label>
+                  <input type="checkbox" name="attributes" value="My body is banging and everyone wants me">
+                  My body is banging and everyone wants me
+                  </label>
+                    </div>
+                    <div class="checkbox">
+                      <label>
+                  <input type="checkbox" name="attributes" value="People are always jealous of me">
+                  People are always jealous of me
+                </label>
+                    </div>
+
+                    <div class="checkbox">
+                      <label>
+                  <input type="checkbox" class="uservar" name="attributes" value="other" id="changeme">
+                  Other
+                    <div class ="custom_input">
+                    <input type="text" name="custom_text" id="mytext">
+                    </div>
+                  </label>
+                    </div>
+
+                    <button type="button" class="btn btn-default" id="submit-traits">Submit</button>
+                    <button type="reset" class="btn btn-default">Reset</button>
+                  </div>
+                </fieldset>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      </div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="scripts/traits.js" charset="utf-8"></script>
+<script src="scripts/blogpic.js" charset="utf-8"></script>
+<script src="scripts/login.js" charset="utf-8"></script>
+<script type="text/javascript" src="/dpd.js"></script>
+</html>

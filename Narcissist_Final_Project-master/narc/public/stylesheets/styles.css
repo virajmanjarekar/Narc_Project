@@ -1,0 +1,100 @@
+body, html {
+  height: 100%;
+}
+
+.bg {
+  background-image: url("http://localhost:2403/img/a.jpeg");
+  height: 100%;
+  margin:0px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.b {
+  background-image: url("http://localhost:2403/img/b.jpeg");
+  height: 100%;
+  margin:0px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.dark-grey {
+  border: 1.5px solid white;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+  text-align: justify;
+}
+
+.blog-border {
+  border: 1.5px solid white;
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-left: 80px;
+  text-align: justify;
+}
+
+
+.format {
+  border: 1.5px solid white;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+  text-align: center;
+  color: white;
+}
+
+#exampleInputFile {
+  text-align: center;
+  margin: auto;
+  text-align: justify;
+}
+
+.profile {
+  border: 1.5px solid white;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+  text-align: center;
+  float: center;
+  color: white;
+}
+
+.tab-content {
+  text-align: center;
+  margin: auto;
+  text-align: justify;
+}
+ .fonts {
+    font-family: "Cambria";
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
